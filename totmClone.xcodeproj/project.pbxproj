@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD2091F225FDB5C00CEC282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD2091E225FDB5C00CEC282 /* AppDelegate.swift */; };
+		DFD20921225FDB5C00CEC282 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFD20920225FDB5C00CEC282 /* GameScene.sks */; };
+		DFD20923225FDB5C00CEC282 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DFD20922225FDB5C00CEC282 /* Actions.sks */; };
+		DFD20925225FDB5C00CEC282 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD20924225FDB5C00CEC282 /* GameScene.swift */; };
+		DFD20927225FDB5C00CEC282 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD20926225FDB5C00CEC282 /* GameViewController.swift */; };
+		DFD2092A225FDB5C00CEC282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD20928225FDB5C00CEC282 /* Main.storyboard */; };
+		DFD2092C225FDB5D00CEC282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD2092B225FDB5D00CEC282 /* Assets.xcassets */; };
+		DFD2092F225FDB5D00CEC282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD2092D225FDB5D00CEC282 /* LaunchScreen.storyboard */; };
+		DFD2093A225FDB5D00CEC282 /* totmCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD20939225FDB5D00CEC282 /* totmCloneTests.swift */; };
+		DFD20945225FDB5D00CEC282 /* totmCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD20944225FDB5D00CEC282 /* totmCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD20936225FDB5D00CEC282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD20913225FDB5C00CEC282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD2091A225FDB5C00CEC282;
+			remoteInfo = totmClone;
+		};
+		DFD20941225FDB5D00CEC282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD20913225FDB5C00CEC282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD2091A225FDB5C00CEC282;
+			remoteInfo = totmClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFD2091B225FDB5C00CEC282 /* totmClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = totmClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD2091E225FDB5C00CEC282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFD20920225FDB5C00CEC282 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DFD20922225FDB5C00CEC282 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DFD20924225FDB5C00CEC282 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DFD20926225FDB5C00CEC282 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DFD20929225FDB5C00CEC282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD2092B225FDB5D00CEC282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD2092E225FDB5D00CEC282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD20930225FDB5D00CEC282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD20935225FDB5D00CEC282 /* totmCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = totmCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD20939225FDB5D00CEC282 /* totmCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totmCloneTests.swift; sourceTree = "<group>"; };
+		DFD2093B225FDB5D00CEC282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD20940225FDB5D00CEC282 /* totmCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = totmCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD20944225FDB5D00CEC282 /* totmCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totmCloneUITests.swift; sourceTree = "<group>"; };
+		DFD20946225FDB5D00CEC282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD20918225FDB5C00CEC282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD20932225FDB5D00CEC282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2093D225FDB5D00CEC282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD20912225FDB5C00CEC282 = {
+			isa = PBXGroup;
+			children = (
+				DFD2091D225FDB5C00CEC282 /* totmClone */,
+				DFD20938225FDB5D00CEC282 /* totmCloneTests */,
+				DFD20943225FDB5D00CEC282 /* totmCloneUITests */,
+				DFD2091C225FDB5C00CEC282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD2091C225FDB5C00CEC282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2091B225FDB5C00CEC282 /* totmClone.app */,
+				DFD20935225FDB5D00CEC282 /* totmCloneTests.xctest */,
+				DFD20940225FDB5D00CEC282 /* totmCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD2091D225FDB5C00CEC282 /* totmClone */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2091E225FDB5C00CEC282 /* AppDelegate.swift */,
+				DFD20920225FDB5C00CEC282 /* GameScene.sks */,
+				DFD20922225FDB5C00CEC282 /* Actions.sks */,
+				DFD20924225FDB5C00CEC282 /* GameScene.swift */,
+				DFD20926225FDB5C00CEC282 /* GameViewController.swift */,
+				DFD20928225FDB5C00CEC282 /* Main.storyboard */,
+				DFD2092B225FDB5D00CEC282 /* Assets.xcassets */,
+				DFD2092D225FDB5D00CEC282 /* LaunchScreen.storyboard */,
+				DFD20930225FDB5D00CEC282 /* Info.plist */,
+			);
+			path = totmClone;
+			sourceTree = "<group>";
+		};
+		DFD20938225FDB5D00CEC282 /* totmCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD20939225FDB5D00CEC282 /* totmCloneTests.swift */,
+				DFD2093B225FDB5D00CEC282 /* Info.plist */,
+			);
+			path = totmCloneTests;
+			sourceTree = "<group>";
+		};
+		DFD20943225FDB5D00CEC282 /* totmCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD20944225FDB5D00CEC282 /* totmCloneUITests.swift */,
+				DFD20946225FDB5D00CEC282 /* Info.plist */,
+			);
+			path = totmCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD2091A225FDB5C00CEC282 /* totmClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD20949225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmClone" */;
+			buildPhases = (
+				DFD20917225FDB5C00CEC282 /* Sources */,
+				DFD20918225FDB5C00CEC282 /* Frameworks */,
+				DFD20919225FDB5C00CEC282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = totmClone;
+			productName = totmClone;
+			productReference = DFD2091B225FDB5C00CEC282 /* totmClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD20934225FDB5D00CEC282 /* totmCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD2094C225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmCloneTests" */;
+			buildPhases = (
+				DFD20931225FDB5D00CEC282 /* Sources */,
+				DFD20932225FDB5D00CEC282 /* Frameworks */,
+				DFD20933225FDB5D00CEC282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD20937225FDB5D00CEC282 /* PBXTargetDependency */,
+			);
+			name = totmCloneTests;
+			productName = totmCloneTests;
+			productReference = DFD20935225FDB5D00CEC282 /* totmCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD2093F225FDB5D00CEC282 /* totmCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD2094F225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmCloneUITests" */;
+			buildPhases = (
+				DFD2093C225FDB5D00CEC282 /* Sources */,
+				DFD2093D225FDB5D00CEC282 /* Frameworks */,
+				DFD2093E225FDB5D00CEC282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD20942225FDB5D00CEC282 /* PBXTargetDependency */,
+			);
+			name = totmCloneUITests;
+			productName = totmCloneUITests;
+			productReference = DFD20940225FDB5D00CEC282 /* totmCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD20913225FDB5C00CEC282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "David Tuvshin";
+				TargetAttributes = {
+					DFD2091A225FDB5C00CEC282 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DFD20934225FDB5D00CEC282 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DFD2091A225FDB5C00CEC282;
+					};
+					DFD2093F225FDB5D00CEC282 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DFD2091A225FDB5C00CEC282;
+					};
+				};
+			};
+			buildConfigurationList = DFD20916225FDB5C00CEC282 /* Build configuration list for PBXProject "totmClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD20912225FDB5C00CEC282;
+			productRefGroup = DFD2091C225FDB5C00CEC282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD2091A225FDB5C00CEC282 /* totmClone */,
+				DFD20934225FDB5D00CEC282 /* totmCloneTests */,
+				DFD2093F225FDB5D00CEC282 /* totmCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD20919225FDB5C00CEC282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2092A225FDB5C00CEC282 /* Main.storyboard in Resources */,
+				DFD20921225FDB5C00CEC282 /* GameScene.sks in Resources */,
+				DFD2092C225FDB5D00CEC282 /* Assets.xcassets in Resources */,
+				DFD2092F225FDB5D00CEC282 /* LaunchScreen.storyboard in Resources */,
+				DFD20923225FDB5C00CEC282 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD20933225FDB5D00CEC282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2093E225FDB5D00CEC282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD20917225FDB5C00CEC282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD20925225FDB5C00CEC282 /* GameScene.swift in Sources */,
+				DFD20927225FDB5C00CEC282 /* GameViewController.swift in Sources */,
+				DFD2091F225FDB5C00CEC282 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD20931225FDB5D00CEC282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2093A225FDB5D00CEC282 /* totmCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD2093C225FDB5D00CEC282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD20945225FDB5D00CEC282 /* totmCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD20937225FDB5D00CEC282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD2091A225FDB5C00CEC282 /* totmClone */;
+			targetProxy = DFD20936225FDB5D00CEC282 /* PBXContainerItemProxy */;
+		};
+		DFD20942225FDB5D00CEC282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD2091A225FDB5C00CEC282 /* totmClone */;
+			targetProxy = DFD20941225FDB5D00CEC282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD20928225FDB5C00CEC282 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD20929225FDB5C00CEC282 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD2092D225FDB5D00CEC282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD2092E225FDB5D00CEC282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD20947225FDB5D00CEC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFD20948225FDB5D00CEC282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD2094A225FDB5D00CEC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD2094B225FDB5D00CEC282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmClone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFD2094D225FDB5D00CEC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/totmClone.app/totmClone";
+			};
+			name = Debug;
+		};
+		DFD2094E225FDB5D00CEC282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmCloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/totmClone.app/totmClone";
+			};
+			name = Release;
+		};
+		DFD20950225FDB5D00CEC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = totmClone;
+			};
+			name = Debug;
+		};
+		DFD20951225FDB5D00CEC282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = totmCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Epic-gamers.totmCloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = totmClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD20916225FDB5C00CEC282 /* Build configuration list for PBXProject "totmClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD20947225FDB5D00CEC282 /* Debug */,
+				DFD20948225FDB5D00CEC282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD20949225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2094A225FDB5D00CEC282 /* Debug */,
+				DFD2094B225FDB5D00CEC282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD2094C225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD2094D225FDB5D00CEC282 /* Debug */,
+				DFD2094E225FDB5D00CEC282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD2094F225FDB5D00CEC282 /* Build configuration list for PBXNativeTarget "totmCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD20950225FDB5D00CEC282 /* Debug */,
+				DFD20951225FDB5D00CEC282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD20913225FDB5C00CEC282 /* Project object */;
+}
