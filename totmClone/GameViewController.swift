@@ -11,7 +11,8 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
-
+    var lPoint: CGPoint?
+    var cPoint: CGPoint?
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,4 +48,5 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }
